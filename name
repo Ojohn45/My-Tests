@@ -1,0 +1,20 @@
+package main
+import "fmt"
+
+func main() {
+	var name string
+	var age int
+	var colour string
+
+	fmt.Println("Enter your name: ")
+	fmt.Scan(&name)
+
+	fmt.Println("Enter your age: ")
+	fmt.Scan(&age)
+
+	fmt.Println("Enter your colour: ")
+	fmt.Scan(&colour)
+
+	fmt.Printf(Hello, %s! You Are, %d Years old, Your Colour is %s Thanks.", name, age, colour)
+
+}
